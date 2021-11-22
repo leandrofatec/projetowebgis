@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Piscinão_PDP.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Piscinão</name>
+		<description>Área delimitada do piscinão para represamento de águas de chuva no bairro Parque dos Príncipes - Jacareí - SP</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-45.94921473785428,-23.2994450340869,0 -45.94918463728069,-23.29959556959242,0 -45.94906484141458,-23.29977024643936,0 -45.94898812266607,-23.29987879338793,0 -45.94885591508912,-23.30004634131448,0 -45.94863096144363,-23.30030515148481,0 -45.94846971126091,-23.30048565306027,0 -45.94826395532137,-23.30071892882242,0 -45.94809702264251,-23.30090938148559,0 -45.94780754349149,-23.30123547712607,0 -45.94776821369383,-23.30125421528844,0 -45.94773202817131,-23.30125264279025,0 -45.94707606122414,-23.30077278033281,0 -45.9470709340005,-23.30073605806193,0 -45.94714723229458,-23.30063442269287,0 -45.94730553869312,-23.30043137892771,0 -45.94744659662723,-23.300240946439,0 -45.94755271134331,-23.30013855252147,0 -45.9477597089527,-23.30005511773236,0 -45.94789232495337,-23.29997421546595,0 -45.94800611385486,-23.29983555096894,0 -45.94810691348167,-23.29968783398225,0 -45.94821939167178,-23.29952312349429,0 -45.94831311872346,-23.29938158713269,0 -45.9482988024542,-23.29931359663828,0 -45.94829887115958,-23.2992440223256,0 -45.94829923636756,-23.2991746428584,0 -45.94834103969956,-23.29912430761495,0 -45.94839744619771,-23.29909183796583,0 -45.94843863970942,-23.29907033759753,0 -45.94850861043785,-23.29909261887539,0 -45.94875576579793,-23.29920636091871,0 -45.94921473785428,-23.2994450340869,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
